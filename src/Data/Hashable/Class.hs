@@ -170,6 +170,9 @@ import Data.Hashable.XXH3
 
 #include "MachDeps.h"
 
+-- sometimes we need dependency of filepath, sometimes we dont
+import System.FilePath ()
+
 infixl 0 `hashWithSalt`
 
 ------------------------------------------------------------------------
