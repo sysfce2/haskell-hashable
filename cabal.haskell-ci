@@ -17,3 +17,6 @@ constraint-set filepath-1.5
   constraints: filepath ^>=1.5.2.0
   tests: True
   run-tests: True
+
+-- TODO: filepath/os-string causes some issues
+error-unused-packages: False
